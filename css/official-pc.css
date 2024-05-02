@@ -1,0 +1,724 @@
+﻿@font-face {
+    font-family: "fzzh";
+    src: url("../fonts/fzzh.woff2") format("woff2"),
+        url("../fonts/fzzh.woff") format("woff"),
+        url("../fonts/fzzh.ttf") format("truetype"),
+        url("../fonts/fzzh.eot") format("embedded-opentype"),
+        url("../fonts/fzzh.svg") format("svg"),
+        url("../fonts/fzzh.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fzzzh";
+    src: url("../fonts/fzzzh.woff2") format("woff2"),
+        url("../fonts/fzzzh.woff") format("woff"),
+        url("../fonts/fzzzh.ttf") format("truetype"),
+        url("../fonts/fzzzh.eot") format("embedded-opentype"),
+        url("../fonts/fzzzh.svg") format("svg"),
+        url("../fonts/fzzzh.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    font-family: '微软雅黑';
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select: text;
+    -moz-user-focus: text;
+    -moz-user-select: text;
+    -webkit-text-size-adjust: none;
+    transform-origin: left top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+div,
+dl,
+dt,
+dd,
+input,
+button,
+label,
+ul,
+ol,
+li,
+p,
+select,
+span,
+textarea,
+thead,
+tfoot,
+table,
+tr,
+td,
+figure,
+figcaption,
+time,
+small {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+
+}
+
+input,
+button {
+    font-size: 14px;
+}
+
+input,
+textarea {
+    -webkit-user-select: auto !important;
+    -khtml-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    -o-user-select: auto !important;
+    user-select: auto !important;
+}
+
+
+div {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+li,
+ol,
+ul {
+    list-style-type: none;
+}
+
+img {
+    border: 0 none;
+    vertical-align: top;
+}
+
+em,
+cite,
+i {
+    font-style: normal;
+}
+
+button,
+input,
+textarea,
+select {
+    border-radius: 0;
+    -webkit-appearance: none;
+    border: none;
+    outline-style: none;
+    line-height: 1.3333;
+    vertical-align: middle;
+    background-color: transparent;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+input[type=date]:before {
+    content: attr(placeholder);
+    color: #999;
+}
+
+input::-webkit-clear-button,
+input::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none;
+}
+
+a {
+    text-decoration: none
+}
+
+:focus {
+    outline: 0;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #999;
+}
+
+.clear {
+    clear: both;
+    overflow: hidden;
+    height: 0;
+    line-height: 0;
+    display: block;
+}
+
+.clearfix:after {
+    clear: both;
+    overflow: hidden;
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    content: '';
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+header.hide {
+    top: -10%;
+}
+
+header {
+    width: 100%;
+    height: 9%;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    border-bottom: 1px solid #efefef;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+header .logo {
+    width: 220px;
+    position: absolute;
+    left: 74px;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: block;
+}
+
+header .logo img {
+    width: 100%;
+}
+
+.headerNav {
+    height: 100%;
+    position: absolute;
+    left: 383px;
+    top: 0;
+}
+
+header .link {
+    display: block;
+    float: left;
+    font-family: "fzzh";
+    font-size: 15px;
+    color: #333;
+    position: relative;
+    /* position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%); */
+    display: flex;
+    /*实现垂直居中*/
+    align-items: center;
+    /*实现水平居中*/
+    justify-content: center;
+
+    text-align: justify;
+    height: 100%;
+    margin-right: 60px;
+}
+
+header .link .line {
+    width: 100%;
+    height: 4px;
+    background: #eb0029;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    display: none;
+}
+
+header .link.on .line,
+header .link:hover .line {
+    display: block;
+}
+
+.btnY {
+    width: 174px;
+    position: absolute;
+    top: 50%;
+    right: 49px;
+    transform: translate(0, -50%) scale(.7);
+    display: block;
+    overflow: hidden;
+}
+
+.btnY img {
+    width: 100%;
+}
+
+.btnY .hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.btnY:hover .hover {
+    opacity: 1;
+}
+
+.btnK {
+    width: 40px;
+    height: 46px;
+    position: absolute;
+    top: 50%;
+    right: 240px;
+    transform: translate(0, -50%) scale(.7);
+    display: block;
+    /* background: url(../images-pc/icon-kf.png) no-repeat; */
+    background-size: cover;
+    transition: all .5s;
+}
+
+.btnK .icon {
+    width: 100%;
+}
+
+.btnK .tip {
+    width: 98px;
+    position: absolute;
+    left: 50%;
+    bottom: -38px;
+    transform: translate(-50%, -15px);
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.btnK:hover .tip {
+    transform: translate(-50%, 0);
+    visibility: visible;
+    opacity: 1;
+}
+
+.more footer {
+    position: relative;
+    bottom: initial;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    transform: translate3d(0, 0, 0);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+footer p {
+    font-family: "fzzh";
+    font-size: 14px;
+    color: #000;
+    margin: 8px 40px;
+    display: inline-block;
+}
+
+footer p a {
+    color: #000;
+}
+
+footer p a.lk {
+    border-bottom: 1px solid #000;
+}
+
+.law {
+    cursor: pointer;
+}
+
+.tkBox {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    display: none;
+}
+
+.tkBox .tk {
+    width: 60%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    transform: translate(-50%, 0);
+    background: #fff;
+    border-radius: 12px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* .tkBox .tk .imgtk {
+    width: 88%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    padding: 50px 0;
+} */
+
+.tkBox .close {
+    width: 49px;
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+}
+
+.fullpage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+.screen1 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/official-pc/off-1.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+.screen2 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/official-pc/off-2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.screen2 .btn {
+    width: 24.2%;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+
+.screen3 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/official-pc/off-3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.screen3 .btn {
+    width: 26.56%;
+    position: absolute;
+    left: 10%;
+    top: 22%;
+    cursor: pointer;
+}
+
+.screen4 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/official-pc/off-4.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.screen4 .txt {
+    height: 78%;
+    position: absolute;
+    left: 50%;
+    top: 6%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-50%, -30px);
+    transition: all .5s;
+}
+
+.screen4 .txt.on {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, 0);
+}
+
+.screen5 {
+    width: 100%;
+}
+
+/* .sc5 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/official-pc/off-5.jpg) no-repeat center center;
+    background-size: cover;
+} */
+
+.sc5bg {
+    width: 100%;
+}
+
+.screen5 .txt2 {
+    width: 64%;
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-50%, -30px);
+    transition: all .5s;
+}
+
+.screen5 .txt3 {
+    width: 25.4%;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-50%, -30px);
+    transition: all .5s;
+}
+
+.screen5.on .txt2,
+.screen5.on .txt3 {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, 0);
+}
+
+.screen5 .light {
+    width: 21.3%;
+    position: absolute;
+    left: 50%;
+    top: 13%;
+    transform: translate(-50%, 0);
+    animation: moon 2s linear infinite;
+}
+
+.screen5 .moon {
+    width: 20%;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, 0);
+}
+
+.screen5 .bom {
+    width: 100%;
+    height: 327px;
+    position: relative;
+}
+
+.bomLogo {
+    width: 7%;
+    position: absolute;
+    left: 50%;
+    top: 33%;
+    transform: translate(-50%, 0);
+}
+
+.page-arrow {
+    width: 3%;
+    position: fixed;
+    left: 50%;
+    bottom: 2%;
+    transform: translate3d(-50%, 0, 0);
+    animation: arrowDown 0.8s linear infinite;
+    z-index: 99;
+    display: none;
+}
+
+@keyframes moon {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#video1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    object-fit: cover;
+    display: none;
+}
+
+#video2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    object-fit: cover;
+    display: none;
+}
+
+.top {
+    position: absolute;
+    width: 5.20833vw;
+    height: 5.20833vw;
+    bottom: 5.20833vw;
+    right: 1.57188vw;
+    background-image: url(../images-pc-carstyle/pc-top.png);
+    background-size: 100%;
+    background-position: 50% 0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.top:hover {
+    background-position: 50% 100%;
+}
+
+@keyframes arrowDown {
+    0% {
+        transform: translate3d(-50%, -8px, 0);
+    }
+
+    50% {
+        transform: translate3d(-50%, 8px, 0);
+    }
+
+    100% {
+        transform: translate3d(-50%, -8px, 0);
+    }
+}
+
+
+@media screen and (max-width: 1260px) {
+    header .logo {
+        left: 40px;
+    }
+
+    header .headerNav {
+        left: 328px;
+    }
+
+    header .btnY {
+        right: 40px;
+    }
+
+    header .btnK {
+        right: 255px;
+    }
+
+    .indexViewAll {
+        transform: scale(.6);
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    header .logo {
+        width: 250px;
+    }
+
+    header .link {
+        font-size: 22px;
+    }
+
+    .btnK {
+        transform: translate(0, -50%) scale(1);
+        right: 300px;
+    }
+
+    .btnY {
+        transform: translate(0, -50%) scale(1);
+        right: 70px;
+    }
+
+    footer p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    /* .page-arrow {
+        bottom: 34px;
+    } */
+
+    /* .screen4 .txt {
+        width: auto;
+        height: 74%;
+    } */
+
+    .screen5 .txt2 {
+        top: 29%;
+    }
+
+    .screen5 .light {
+        top: 14%;
+    }
+
+    .screen5 .moon {
+        top: 16%;
+    }
+}

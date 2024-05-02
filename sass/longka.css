@@ -1,0 +1,222 @@
+/* @font-face {
+  font-family: "SourceHanSansCN-Regular";
+  src: url("../fonts/SourceHanSansCN-Regular.woff2") format("woff2"),
+    url("../fonts/SourceHanSansCN-Regular.woff") format("woff"),
+    url("../fonts/SourceHanSansCN-Regular.ttf") format("truetype"),
+    url("../fonts/SourceHanSansCN-Regular.eot") format("embedded-opentype"),
+    url("../fonts/SourceHanSansCN-Regular.svg") format("svg"),
+    url("../fonts/SourceHanSansCN-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+} */
+@font-face {
+  font-family: "adineuePROCondTT-Regular";
+  src: url("../fonts/adineuePROCondTT-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FZMoDTJW_Da";
+  src: url("../fonts/FZMoDTJW_Da.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HYYakuHei-45W";
+  src: url("../fonts/HYYakuHei-45W.html") format("otf"), url("../fonts/HYYakuHei-45W.woff") format("woff"), url("../fonts/HYYakuHei-45W-2.html") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+#wapper {
+  width: 100%;
+  height: auto;
+  position: initial;
+}
+#wapper .main {
+  position: relative;
+}
+#wapper .main .bgimg {
+  width: 100%;
+  display: block;
+}
+#wapper .main footer {
+  position: relative;
+}
+#wapper .main .form-wrapper {
+  position: relative;
+}
+#wapper .main .form-wrapper .reserve_form {
+  position: absolute;
+  width: 40.2083333333vw;
+  height: 39.4791666667vw;
+  left: 56.25vw;
+  top: 8.4375vw;
+  margin-top: 0;
+}
+#wapper .main .form-wrapper .reserve_form .grid, #wapper .main .form-wrapper .reserve_form .btm {
+  width: 80%;
+  position: absolute;
+  top: 9%;
+  left: 50%;
+  transform: translate(-50%);
+}
+#wapper .main .form-wrapper .reserve_form .grid:nth-of-type(2) {
+  top: 22%;
+}
+#wapper .main .form-wrapper .reserve_form .grid:nth-of-type(3) {
+  top: 35.5%;
+}
+#wapper .main .form-wrapper .reserve_form .grid:nth-of-type(4) {
+  top: 48.5%;
+}
+#wapper .main .form-wrapper .reserve_form .grid:nth-of-type(5) {
+  top: 61.6%;
+}
+#wapper .main .form-wrapper .reserve_form .drop_select {
+  border-bottom: 0;
+}
+#wapper .main .form-wrapper .reserve_form .drop_select .arrow {
+  display: none;
+}
+#wapper .main .form-wrapper .reserve_form .btm {
+  padding: 0;
+  top: 78.3%;
+}
+#wapper .main .form-wrapper .reserve_form .btm .btn {
+  margin: 0;
+  width: 100%;
+  height: 4.125vw;
+  opacity: 0;
+}
+#wapper .main .slideImg {
+  position: relative;
+}
+#wapper .main .slideImg .img-wrap {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  top: 50%;
+}
+#wapper .nav li {
+  height: 2.4vw;
+  background-image: url(../images-pc-carstyle/longka/pc-nav.png);
+  margin: 5px 0 5px 3.41146vw;
+}
+#wapper .nav.style2 li {
+  background-image: url(../images-pc-carstyle/longka/pc-nav2.png);
+}
+#wapper .nav .nav-01 {
+  background-position-y: 0%;
+}
+#wapper .nav .nav-02 {
+  background-position-y: 8%;
+}
+#wapper .nav .nav-03 {
+  background-position-y: 16.5%;
+}
+#wapper .nav .nav-04 {
+  background-position-y: 24.5%;
+}
+#wapper .nav .nav-05 {
+  background-position-y: 33%;
+}
+#wapper .nav .nav-06 {
+  background-position-y: 41.5%;
+}
+#wapper .pc-swiper-mainBody .slideImg .img-wrap .img-wrap-s ul li:nth-child(1) {
+  background-image: url(../images-pc-carstyle/longka/img/1.jpg);
+}
+#wapper .pc-swiper-mainBody .slideImg .img-wrap .img-wrap-s ul li:nth-child(2) {
+  background-image: url(../images-pc-carstyle/longka/img/2.jpg);
+}
+#wapper .pc-swiper-mainBody .slideImg .img-wrap .img-wrap-s ul li:nth-child(3) {
+  background-image: url(../images-pc-carstyle/longka/img/3.jpg);
+}
+#wapper .pc-swiper-mainBody .slideImg .img-wrap .img-wrap-s ul li:nth-child(4) {
+  background-image: url(../images-pc-carstyle/longka/img/4.jpg);
+}
+#wapper .pc-swiper-mainBody .slideImg .img-wrap .img-wrap-s ul li:nth-child(5) {
+  background-image: url(../images-pc-carstyle/longka/img/5.jpg);
+}
+#wapper .pc-swiper-mainBody .slideImg .img-wrap .img-wrap-s ul li:nth-child(6) {
+  background-image: url(../images-pc-carstyle/longka/img/6.jpg);
+}
+#wapper .pc-swiper-mainBody .slideImg .img-wrap .img-wrap-s ul li:nth-child(7) {
+  background-image: url(../images-pc-carstyle/longka/img/7.jpg);
+}
+#wapper .pc-swiper-mainBody .slideImg .img-wrap .img-wrap-s ul li:nth-child(8) {
+  background-image: url(../images-pc-carstyle/longka/img/8.jpg);
+}
+#wapper .pc-swiper-mainBody .slideImg .img-wrap .img-wrap-s ul li:nth-child(9) {
+  background-image: url(../images-pc-carstyle/longka/img/9.jpg);
+}
+#wapper .pc-swiper-mainBody .slideImg .img-wrap .img-wrap-s ul li:nth-child(10) {
+  background-image: url(../images-pc-carstyle/longka/img/10.jpg);
+}
+#wapper .pc-swiper-mainBody .slideImg .img-wrap .img-wrap-s ul li:nth-child(11) {
+  background-image: url(../images-pc-carstyle/longka/img/11.jpg);
+}
+#wapper .pc-swiper-mainBody .slideImg .img-wrap .img-wrap-s ul li:nth-child(12) {
+  background-image: url(../images-pc-carstyle/longka/img/12.jpg);
+}
+
+.video-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 999;
+  display: none;
+}
+.video-wrap .video-wrap-box {
+  position: absolute;
+  width: 50vw;
+  height: 28.125vw;
+  left: 25%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.video-wrap .video-wrap-box #video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  transform: translateY(0);
+  object-fit: cover;
+}
+.video-wrap .close {
+  position: absolute;
+  bottom: 8%;
+  width: 2.29167vw;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+#wapper .pc-swiper-mainBody .top {
+  bottom: 1.2vw;
+}
+
+.p2 {
+  position: relative;
+}
+.p2 .video-txt {
+  position: absolute;
+  width: 13vw;
+  height: 13vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=longka.css.map */
