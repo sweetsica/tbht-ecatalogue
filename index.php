@@ -5,12 +5,13 @@
 <!-- Mirrored from www.wuling.com/binguo.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Apr 2024 09:12:49 GMT -->
 <head>
   <meta charset="utf-8">
-  <title>五菱缤果</title>
+  <title>Ecatalogue</title>
   <link href="css/swiper.min.css" rel="stylesheet" />
   <link href="css/pc.css" rel="stylesheet" />
   <link href="sass/index.css" rel="stylesheet" />
   <link href="sass/binguo.css" rel="stylesheet" />
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <link rel="icon" href="images-pc/logo Thái Hưng  k text-01-01.png" type="image/png">
   <link rel="apple-touch-icon" href="favicon.html">
   <script src="js/jquery.min.js"></script>
   <script src="js/gsap.min.js"></script>
@@ -77,11 +78,11 @@
 	</div> -->
   <div id="wapper">
     <header>
-      <a href="index.html" class="logo"><img src="images-pc/logo.png"></a>
+      <a href="index.html" class="logo"><img src="images-pc/log Thái Hưng-01.png"></a>
       <div class="headerNav">
-        <a href="carstyle.html" class="link link1">全部车型 <span class="line"></span></a>
-        <a href="carguide.html" class="link link2">购车指南 <span class="line"></span></a>
-        <a href="story.html" class="link link3">品牌故事 <span class="line"></span></a>
+        <a href="carstyle.html" class="link link1">Tất cả sản phẩm<span class="line"></span></a>
+        <a href="carguide.html" class="link link2">Hướng dẫn mua xe <span class="line"></span></a>
+        <a href="story.html" class="link link3">Giới thiệu về nhà máy<span class="line"></span></a>
       </div>
       <a href="reserve.html" class="btnY">
         <img src="images-pc/icon-yue.png" class="">
@@ -104,13 +105,13 @@
         </div>
         <div class="swiper-slide slideHome">
           <div>
-            <img src="images-pc-carstyle/binguo/btn-video-play.png" class="btn-video-play">
+            <img src="images-pc-carstyle/binguo/playvideo.png" class="btn-video-play">
           </div>
           <div>
-            <img src="images-pc-carstyle/binguo/btn-video-play.png" class="btn-video-play">
+            <img src="images-pc-carstyle/binguo/playvideo.png" class="btn-video-play">
           </div>
           <div>
-            <img src="images-pc-carstyle/binguo/btn-video-play.png" class="btn-video-play">
+            <img src="images-pc-carstyle/binguo/playvideo.png" class="btn-video-play">
           </div>
         </div>
         <div class="swiper-slide colors">
@@ -740,18 +741,12 @@
           <div class="top">
           </div>
           <footer>
-            <p>WULING © 2020</p>
-            <p class="law">隐私和法律</p>
-            <p>前往了解<a href="https://www.sgmw.com.cn/" target="_blank" class="lk">宝骏汽车</a></p><br />
-            <p><a href="mailto:ye.tang@sgmw.com.cn" target="_blank">媒体联系邮箱：ye.tang@sgmw.com.cn</a></p>
-            <p><a href="http://beian.miit.gov.cn/" target="_blank">桂ICP备05006817号-10</a></p>
-            <p>
-              <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=45020402000143" target="_blank"
-                style="line-height: 22px;">
-                <img src="../gw.alicdn.com/tfs/TB1jwakrbH1gK0jSZFwXXc7aXXa-20-20.png"
-                  style="margin-right: 5px;">桂公网安备 45020402000143号
-              </a>
-            </p>
+            <p>Copyright © 2024 TBHT. All rights reserved.</p>
+            <p class="law">Chính sách và bảo mật</p>
+            <p><a href="https://tbht.vn/" target="_blank">Tìm hiểu thêm: Công ty Cổ phần Thái Bình Hưng Thịnh</a></p><br />
+            <p><a href="mailto:admin@tbht.vn" target="_blank">Email：admin@tbht.vn</a></p>
+            <!-- <p><a href="http://beian.miit.gov.cn/" target="_blank">桂ICP备05006817号-10</a></p> -->
+            <p><a href="tel:+84 (0) 888 809 889" target="_blank">Hotline：+84 (0) 888 809 889</a></p>
           </footer>
         </div>
 

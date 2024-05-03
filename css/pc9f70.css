@@ -4,7 +4,7 @@
 
 body {
     font-size: 14px;
-    font-family: '微软雅黑';
+    font-family: 'IBM Plex Sans';
     height: 100%;
     margin: 0;
     padding: 0;
@@ -226,9 +226,9 @@ header {
 }
 
 header .logo {
-    width: 70px;
+    width: 220px;
     position: absolute;
-    left: 74px;
+    /* left: 74px; */
     top: 50%;
     transform: translate(0, -50%);
     display: block;
@@ -249,7 +249,7 @@ header .logo img {
 header .link {
     display: block;
     float: left;
-    font-family: "fzzh";
+    font-family: "IBM Plex Sans";
     font-size: 15px;
     color: #333;
     position: relative;
@@ -1283,7 +1283,7 @@ footer {
 }
 
 footer p {
-    font-family: "fzzh";
+    font-family: 'IBM Plex Sans';
     font-size: 14px;
     color: #333;
     margin: 8px 40px;
