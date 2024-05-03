@@ -91,12 +91,12 @@
         <a href="story.html" class="link link3">Giới thiệu về nhà máy<span class="line"></span></a>
       </div>
       <a href="reserve.html" class="btnY">
-        <img src="images-pc/icon-yue.png" class="">
-        <img src="images-pc/icon-yue-1.png" class="hover">
+        <img src="images-pc/dangkylaithuwhite.png" class="">
+        <img src="images-pc/dangkylaithublack.png" class="hover">
       </a>
       <a href="javascript:void(0);" target="_blank" class="btnK living">
         <img src="images-pc/icon-kf.png" class="icon">
-        <img src="images-pc/icon-kf-1.png" class="tip">
+        <img src="images-pc/dichvutructuyen.png" class="tip">
       </a>
     </header>
     <div class="swiper-container pc-swiper-mainBody">
