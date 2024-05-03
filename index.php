@@ -11,7 +11,7 @@
   <link href="sass/index.css" rel="stylesheet" />
   <link href="sass/binguo.css" rel="stylesheet" />
   <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
-  <link rel="icon" href="images-pc/logo Thái Hưng  k text-01-01.png" type="image/png">
+  <link rel="icon" href="images-pc/logo-header.png" type="image/png">
   <link rel="apple-touch-icon" href="favicon.html">
   <script src="js/jquery.min.js"></script>
   <script src="js/gsap.min.js"></script>
@@ -42,6 +42,9 @@
   <style>
     header {
       border: 0
+    }
+    header.hide {
+     top: 0 !important;
     }
   </style>
   <script>
@@ -78,7 +81,7 @@
 	</div> -->
   <div id="wapper">
     <header>
-      <a href="index.html" class="logo"><img src="images-pc/log Thái Hưng-01.png"></a>
+      <a href="index.html" class="logo"><img src="images-pc/logo-text.png"></a>
       <div class="headerNav">
         <a href="carstyle.html" class="link link1">Tất cả sản phẩm<span class="line"></span></a>
         <a href="carguide.html" class="link link2">Hướng dẫn mua xe <span class="line"></span></a>
