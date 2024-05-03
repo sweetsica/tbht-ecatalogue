@@ -46,6 +46,9 @@
     header.hide {
      top: 0 !important;
     }
+    header .link {
+      font-size: 18px;
+    }
   </style>
   <script>
     (function () {
