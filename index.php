@@ -15,29 +15,30 @@
   <link rel="apple-touch-icon" href="favicon.html">
   <script src="js/jquery.min.js"></script>
   <script src="js/gsap.min.js"></script>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <script>
-    function browserRedirect() {
-      var sUserAgent = navigator.userAgent.toLowerCase();
-      var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
-      var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
-      var bIsMidp = sUserAgent.match(/midp/i) == "midp";
-      var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
-      var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
-      var bIsAndroid = sUserAgent.match(/android/i) == "android";
-      var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
-      var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+    // function browserRedirect() {
+    //   var sUserAgent = navigator.userAgent.toLowerCase();
+    //   var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+    //   var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+    //   var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+    //   var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+    //   var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+    //   var bIsAndroid = sUserAgent.match(/android/i) == "android";
+    //   var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+    //   var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
 
-      if ((bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM)) {
-        var arr = location.href.split("?");
-        if (arr.length > 1) {
-          location.replace("wap/binguod41d.html?" + arr[1]);
-        } else {
-          location.replace("wap/binguo.html");
-        }
-      } else {
-      }
-    }
-    browserRedirect();
+    //   if ((bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM)) {
+    //     var arr = location.href.split("?");
+    //     if (arr.length > 1) {
+    //       location.replace("wap/binguod41d.html?" + arr[1]);
+    //     } else {
+    //       location.replace("wap/binguo.html");
+    //     }
+    //   } else {
+    //   }
+    // }
+    // browserRedirect();
   </script>
   <style>
     header {
@@ -49,6 +50,18 @@
     header .link {
       font-size: 18px;
     }
+
+    /* .menu{
+      right: 12px !important;
+      cursor: pointer;
+      display: none;
+    }
+
+    .img-menu {
+      scale: 150% !important;
+    } */
+    
+  
   </style>
   <script>
     (function () {
@@ -84,20 +97,27 @@
 	</div> -->
   <div id="wapper">
     <header>
-      <a href="index.html" class="logo"><img src="images-pc/logo-text.png"></a>
+      <a href="https://tbht.vn/" class="logo"><img src="images-pc/logo-text.png"></a>
       <div class="headerNav">
-        <a href="carstyle.html" class="link link1">Tất cả sản phẩm<span class="line"></span></a>
-        <a href="carguide.html" class="link link2">Hướng dẫn mua xe <span class="line"></span></a>
-        <a href="story.html" class="link link3">Giới thiệu về nhà máy<span class="line"></span></a>
+        <a href="https://tbht.vn/" class="link link1" target="_blank">Trang chủ<span class="line"></span></a>
+        <a href="https://tbht.vn/cua-hang" class="link link1" target="_blank">Cửa hàng<span class="line"></span></a>
+        <a href="https://tbht.vn/lien-he" class="link link2" target="_blank">Đặt hàng<span class="line"></span></a>
+        <a href="https://tbht.vn/tin-tuc/chinh-sach-dai-ly" class="link link2" target="_blank">Đăng ký đối tác<span class="line"></span></a>
+        <a href="https://tbht.vn/nha-may-xe-dien-thai-hung " class="link link3" target="_blank">Giới thiệu nhà máy<span class="line"></span></a>
       </div>
-      <a href="reserve.html" class="btnY">
+      <!-- <a class="btnK menu">
+        <img src="images-pc/icon-menu.png" alt="Menu" class="icon img-menu">
+      </a> -->
+      <a href="https://tbht.vn/dang-ky-lai-thu" class="btnY">
         <img src="images-pc/dangkylaithuwhite.png" class="">
         <img src="images-pc/dangkylaithublack.png" class="hover">
       </a>
-      <a href="javascript:void(0);" target="_blank" class="btnK living">
+
+      <a href="https://tbht.vn/lien-he" target="_blank" class="btnK living">
         <img src="images-pc/icon-kf.png" class="icon">
         <img src="images-pc/dichvutructuyen.png" class="tip">
       </a>
+
     </header>
     <div class="swiper-container pc-swiper-mainBody">
       <div class="swiper-wrapper swiper-no-swiping">
