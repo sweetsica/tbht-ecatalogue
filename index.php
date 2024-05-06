@@ -122,6 +122,8 @@
   <div id="wapper">
     <header>
       <a href="https://tbht.vn/" class="logo"><img src="images-pc/logo-text.png"></a>
+      <!-- Menu Mobile -->
+      <!-- Start -->
       <a class="btnK menu" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
         <img src="images-pc/icon-menu.png" alt="Menu" class="icon img-menu">
       </a>
@@ -138,6 +140,7 @@
           </div>
        </div>
       </div>
+      <!-- End -->
       <div class="headerNav">
         <a href="https://tbht.vn/" class="link link1" target="_blank">Trang chủ<span class="line"></span></a>
         <a href="https://tbht.vn/cua-hang" class="link link1" target="_blank">Cửa hàng<span class="line"></span></a>
