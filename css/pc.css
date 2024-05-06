@@ -297,7 +297,7 @@ header .logo img {
 header .link {
   display: block;
   float: left;
-  font-family: "IBM Plex Sans";
+  font-family: "Jura", sans-serif;
   font-size: 15px;
   color: #333;
   position: relative;
@@ -314,6 +314,8 @@ header .link {
   text-align: justify;
   height: 100%;
   margin-right: 60px;
+  font-weight: 700;
+  text-decoration: none !important;
 }
 
 header .link:hover {
@@ -1580,6 +1582,20 @@ footer p a.lk {
 
   .indexViewAll {
     transform: scale(0.6);
+  }
+
+  /* Custom css */
+  .menu {
+    display: block !important;
+  }
+
+  .headerNav {
+    display: none !important;
+  }
+
+  header .link {
+    width: 100%;
+    justify-content: unset;
   }
 }
 
