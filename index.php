@@ -34,7 +34,6 @@
       }
     }())
   </script>
-  <!-- STM -->
   <script>
       (function (a, e, f, g, b, c, d) {
         a.ClickiTrackerName = b;
@@ -44,7 +43,6 @@
       })(window, document, 'script', '../stm-cdn.cn.miaozhen.com/clicki.minec92.js?v=' + Math.round(new Date().getTime() / 1000 / 300), 'stm_clicki');
     stm_clicki('create', 'dc-3797', 'auto');
     stm_clicki('send', 'pageview');
-    //热力图
     stm_clicki('require', 'heatmap', '../stm-cdn.cn.miaozhen.com/plugins/heatmapec92.js?v=' + Math.round(new Date().getTime() / 1000 / 1800));
     stm_clicki('heatmap:on', 5);
   </script>
