@@ -11,7 +11,6 @@
   <link rel="apple-touch-icon" href="favicon.html">
   <script src="js/jquery.min.js"></script>
   <script src="js/gsap.min.js"></script>
-<<<<<<< HEAD
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,8 +42,6 @@
     // }
     // browserRedirect();
   </script>
-=======
->>>>>>> 2024a41567e2448211e4e6c482e42e56a5af0f87
   <style>
     .link {
       
@@ -148,10 +145,7 @@
         <a href="https://tbht.vn/tin-tuc/chinh-sach-dai-ly" class="link link2" target="_blank">Đăng ký đối tác<span class="line"></span></a>
         <a href="https://tbht.vn/nha-may-xe-dien-thai-hung " class="link link3" target="_blank">Giới thiệu nhà máy<span class="line"></span></a>
       </div>
-<<<<<<< HEAD
       
-=======
->>>>>>> 2024a41567e2448211e4e6c482e42e56a5af0f87
       <a href="https://tbht.vn/dang-ky-lai-thu" class="btnY">
         <img src="images-pc/dangkylaithuwhite.png" class="">
         <img src="images-pc/dangkylaithublack.png" class="hover">
@@ -818,4 +812,4 @@
   <script src="js/md5.min.js"></script>
   <script src="js/common.service.js"></script>
 </body>
-</html>
+</html> 
