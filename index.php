@@ -1,45 +1,16 @@
 <!DOCTYPE html>
 <html>
-
-
-<!-- Mirrored from www.wuling.com/binguo.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Apr 2024 09:12:49 GMT -->
 <head>
   <meta charset="utf-8">
-  <title>Ecatalogue</title>
+  <title>[TBHT] E-Catalogue</title>
   <link href="css/swiper.min.css" rel="stylesheet" />
   <link href="css/pc.css" rel="stylesheet" />
   <link href="sass/index.css" rel="stylesheet" />
   <link href="sass/binguo.css" rel="stylesheet" />
-  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
   <link rel="icon" href="images-pc/logo-header.png" type="image/png">
   <link rel="apple-touch-icon" href="favicon.html">
   <script src="js/jquery.min.js"></script>
   <script src="js/gsap.min.js"></script>
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-  <script>
-    // function browserRedirect() {
-    //   var sUserAgent = navigator.userAgent.toLowerCase();
-    //   var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
-    //   var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
-    //   var bIsMidp = sUserAgent.match(/midp/i) == "midp";
-    //   var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
-    //   var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
-    //   var bIsAndroid = sUserAgent.match(/android/i) == "android";
-    //   var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
-    //   var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
-
-    //   if ((bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM)) {
-    //     var arr = location.href.split("?");
-    //     if (arr.length > 1) {
-    //       location.replace("wap/binguod41d.html?" + arr[1]);
-    //     } else {
-    //       location.replace("wap/binguo.html");
-    //     }
-    //   } else {
-    //   }
-    // }
-    // browserRedirect();
-  </script>
   <style>
     header {
       border: 0
@@ -50,18 +21,6 @@
     header .link {
       font-size: 18px;
     }
-
-    /* .menu{
-      right: 12px !important;
-      cursor: pointer;
-      display: none;
-    }
-
-    .img-menu {
-      scale: 150% !important;
-    } */
-    
-  
   </style>
   <script>
     (function () {
@@ -105,9 +64,6 @@
         <a href="https://tbht.vn/tin-tuc/chinh-sach-dai-ly" class="link link2" target="_blank">Đăng ký đối tác<span class="line"></span></a>
         <a href="https://tbht.vn/nha-may-xe-dien-thai-hung " class="link link3" target="_blank">Giới thiệu nhà máy<span class="line"></span></a>
       </div>
-      <!-- <a class="btnK menu">
-        <img src="images-pc/icon-menu.png" alt="Menu" class="icon img-menu">
-      </a> -->
       <a href="https://tbht.vn/dang-ky-lai-thu" class="btnY">
         <img src="images-pc/dangkylaithuwhite.png" class="">
         <img src="images-pc/dangkylaithublack.png" class="hover">
@@ -191,10 +147,6 @@
                     data-id="1" data-idx="1" alt="">
                   <img src="images-pc-carstyle/binguo/202309/color-car-color-1-2.png" class="color-b color-b-2"
                     data-id="1" data-idx="2" alt="">
-                  <!-- <img src="images-pc-carstyle/binguo/202309/color-car-wheel-1-1.png" class="color-wheel color-wheel-1 on"
-                    alt="" data-id="1" data-idx="1">
-                  <img src="images-pc-carstyle/binguo/202309/color-car-wheel-1-2.png" class="color-wheel  color-wheel-2" alt=""
-                    data-id="1" data-idx="2"> -->
                   <img src="images-pc-carstyle/binguo/202309/color-car-color-txt-1-1.png" class="color-bt color-bt-1 on"
                     alt="">
                   <img src="images-pc-carstyle/binguo/202309/color-car-color-txt-1-2.png" class="color-bt  color-bt-2"
@@ -212,16 +164,8 @@
                 <div class="color-select color-select-2">
                   <img src="images-pc-carstyle/binguo/202309/color-car-color-2-1.png" class="color-b color-b-1 on"
                     data-id="2" data-idx="1" alt="">
-                  <!-- <img src="images-pc-carstyle/binguo/202309/color-car-color-2-2.png" class="color-b color-b-2"
-                    data-id="2" data-idx="2" alt=""> -->
-                  <!-- <img src="images-pc-carstyle/binguo/202309/color-car-wheel-2-1.png" class="color-wheel color-wheel-1 on"
-                    alt="" data-id="2" data-idx="1">
-                  <img src="images-pc-carstyle/binguo/202309/color-car-wheel-2-2.png" class="color-wheel  color-wheel-2" alt=""
-                    data-id="2" data-idx="2"> -->
                   <img src="images-pc-carstyle/binguo/202309/color-car-color-txt-2-1.png" class="color-bt color-bt-1 on"
                     alt="">
-                  <!-- <img src="images-pc-carstyle/binguo/202309/color-car-color-txt-2-2.png" class="color-bt  color-bt-2"
-                    alt=""> -->
                 </div>
                 <img src="images-pc-carstyle/binguo/202309/color-car-txt-2.png" alt="" class="color-txt">
                 <img src="images-pc-carstyle/binguo/202309/color-car-price-2.png" alt="" class="color-price"
@@ -235,16 +179,8 @@
                 <div class="color-select color-select-3">
                   <img src="images-pc-carstyle/binguo/202309/color-car-color-3-1.png" class="color-b color-b-1 on"
                     data-id="3" data-idx="1" alt="">
-                  <!-- <img src="images-pc-carstyle/binguo/202309/color-car-color-3-2.png" class="color-b color-b-2"
-                    data-id="3" data-idx="2" alt=""> -->
-                  <!-- <img src="images-pc-carstyle/binguo/202309/color-car-wheel-3-1.png" class="color-wheel color-wheel-1 on"
-                    alt="" data-id="3" data-idx="1">
-                  <img src="images-pc-carstyle/binguo/202309/color-car-wheel-3-2.png" class="color-wheel  color-wheel-2" alt=""
-                    data-id="3" data-idx="2"> -->
                   <img src="images-pc-carstyle/binguo/202309/color-car-color-txt-3-1.png" class="color-bt color-bt-1 on"
                     alt="">
-                  <!-- <img src="images-pc-carstyle/binguo/202309/color-car-color-txt-3-2.png" class="color-bt  color-bt-2"
-                    alt=""> -->
                 </div>
                 <img src="images-pc-carstyle/binguo/202309/color-car-txt-3.png" alt="" class="color-txt">
                 <img src="images-pc-carstyle/binguo/202309/color-car-price-3.png" alt="" class="color-price"
@@ -258,10 +194,6 @@
                 <div class="color-select color-select-4">
                   <img src="images-pc-carstyle/binguo/202309/color-car-color-4-1.png" class="color-b color-b-1 on"
                     data-id="1" data-idx="1" alt="">
-                  <!-- <img src="images-pc-carstyle/binguo/202309/color-car-wheel-4-1.png" class="color-wheel color-wheel-1 on"
-                    alt="" data-id="4" data-idx="1">
-                  <img src="images-pc-carstyle/binguo/202309/color-car-wheel-4-2.png" class="color-wheel  color-wheel-2" alt=""
-                    data-id="4" data-idx="2"> -->
                   <img src="images-pc-carstyle/binguo/202309/color-car-color-txt-4-1.png" class="color-bt color-bt-1 on"
                     alt="">
                 </div>
@@ -288,7 +220,6 @@
               <div class="block-title-top"></div>
               <div class="block-title-bottom"></div>
             </div>
-            <!-- <img src="images-pc-carstyle/binguo/compare-text.png" alt="" class="block-title"> -->
             <div class="icons">
               <div class="prev"></div>
               <div class="next"></div>
@@ -304,7 +235,6 @@
             <img src="images-pc-carstyle/binguo/202306/vintage-b-img-5.jpg" alt="" class="v-b-img">
             <img src="images-pc-carstyle/binguo/vintage-b-img-6.jpg" alt="" class="v-b-img">
           </div>
-          <!-- <img src="images-pc-carstyle/binguo/vintage-text.png" alt="" class="block-title"> -->
           <div class="block-title on">
             <div class="block-title-top"></div>
             <div class="block-title-bottom"></div>
@@ -316,9 +246,6 @@
                   <div class="on"><span>0</span><span>1</span><span>/</span><span>0</span><span>6</span></div>
                   <div class="num-next"></div>
                 </div>
-                <!-- <div class="nums">
-                  01/03
-                </div> -->
                 <div class="icons">
                   <div class="prev p2"></div>
                   <div class="next n2"></div>
@@ -350,17 +277,12 @@
           </div>
         </div>
         <div class="swiper-slide policy">
-          <!-- <img src="images-pc-carstyle/binguo/202306/policy-logo.png" alt="" class="logo"> -->
           <img src="images-pc-carstyle/binguo/202309/policy-txt.png" alt="" class="txt">
           <div class="btns">
             <div class="btn llb">
               <img src="images-pc-carstyle/binguo/policy-btn-1.png" class="bg">
               <img src="images-pc-carstyle/binguo/policy-btn-1-hover.png" class="hover">
             </div>
-            <!-- <div class="btn tmall">
-              <img src="images-pc-carstyle/binguo/policy-btn-2.png" class="bg">
-              <img src="images-pc-carstyle/binguo/policy-btn-2-hover.png" class="hover">
-            </div> -->
           </div>
         </div>
         <div class="swiper-slide booking">
@@ -381,16 +303,6 @@
                   </div>
                   <div class="alert_info">请输入您的手机</div>
                 </div>
-
-                <!-- <div class="grid" style="margin-right: 0;">
-                  <div class="drop_select">
-                    <img src="images-pc-carstyle/binguo/booking-s-down.png" class="arrow">
-                    <select id="ddlCarTypes">
-                    </select>
-                  </div>
-                  <div class="alert_info">请选择您的车型</div>
-                </div> -->
-
                 <div class="grid" style="margin-right: 0;">
                   <div class="drop_select">
                     <img src="images-pc-carstyle/binguo/booking-s-down.png" class="arrow">
@@ -443,7 +355,6 @@
               <div class="block-title-top"></div>
               <div class="block-title-bottom"></div>
             </div>
-            <!-- <img src="images-pc-carstyle/binguo/selling-title-1.png" class="fullImgBanTit1"> -->
             <div class="bottom-cont  splice">
               <div>
                 <img src="images-pc-carstyle/binguo/bottom-text-1-1.png" class="sub-txt  active" more-num="1"
@@ -485,7 +396,6 @@
         <div class="swiper-slide slideP4-2">
           <div class="cont">
             <div class="fullBg2"></div>
-            <!-- <img src="images-pc-carstyle/binguo/selling-title-2.png" class="fullImgBanTit1"> -->
             <div class="fullImgBanTit2 block-title">
               <div class="block-title-top"></div>
               <div class="block-title-bottom"></div>
@@ -512,9 +422,6 @@
               <div class="anchor anchor4"></div>
               <img class="fullSubImg fullSubImg1" src="images-pc-carstyle/binguo/202309/full-2-img.jpg">
               <div class="slideP4-hide" more-num="2">
-                <!-- <img src="images-pc-carstyle/binguo/pc-hide-btn-2.png" class="on">
-                <img src="images-pc-carstyle/binguo/pc-hide-btn-2.png" class="act"> -->
-                <!-- <img src="images-pc-carstyle/binguo/pc-hide-btn-act.png" class="act"> -->
               </div>
             </div>
 
@@ -523,7 +430,6 @@
         <div class="swiper-slide slideP4-3">
           <div class="cont">
             <div class="fullBg3"></div>
-            <!-- <img src="images-pc-carstyle/binguo/selling-title-3.png" class="fullImgBanTit1"> -->
             <div class="fullImgBanTit3 block-title">
               <div class="block-title-top"></div>
               <div class="block-title-bottom"></div>
@@ -599,7 +505,6 @@
         <div class="swiper-slide slideP4-4">
           <div class="cont">
             <div class="fullBg4"></div>
-            <!-- <img src="images-pc-carstyle/binguo/selling-title-4.png" class="fullImgBanTit4"> -->
             <div class="fullImgBanTit4 block-title">
               <div class="block-title-top"></div>
               <div class="block-title-bottom"></div>
@@ -624,7 +529,6 @@
               <img class="title1" src="images-pc-carstyle/binguo/202309/pc-full-4-tit-1.png">
               <img class="title2" src="images-pc-carstyle/binguo/202309/pc-full-4-tit-2.png">
               <img class="title3" src="images-pc-carstyle/binguo/202309/pc-full-4-tit-3.png">
-              <!-- <img class="title4" src="images-pc-carstyle/binguo/pc-full-4-tit-4.png"> -->
               <img class="title5 title51" src="images-pc-carstyle/binguo/202309/pc-full-4-tit-51.png">
               <img class="title5" src="images-pc-carstyle/binguo/202309/pc-full-4-tit-5.png">
               <img class="title6" src="images-pc-carstyle/binguo/202309/pc-full-4-tit-6.png">
@@ -641,7 +545,6 @@
         <div class="swiper-slide slideP4-5">
           <div class="cont">
             <div class="fullBg5"></div>
-            <!-- <img src="images-pc-carstyle/binguo/selling-title-4.png" class="fullImgBanTit4"> -->
             <div class="fullImgBanTit5 block-title">
               <div class="block-title-top"></div>
               <div class="block-title-bottom"></div>
@@ -679,7 +582,6 @@
         <div class="swiper-slide slideP4-6">
           <div class="cont">
             <div class="fullBg6"></div>
-            <!-- <img src="images-pc-carstyle/binguo/selling-title-4.png" class="fullImgBanTit4"> -->
             <div class="fullImgBanTit6 block-title">
               <div class="block-title-top"></div>
               <div class="block-title-bottom"></div>
@@ -696,7 +598,6 @@
 
         </div>
         <div class="swiper-slide slideImg">
-          <!-- <img class="title" src="images-pc-carstyle/binguo/slideImg-title.png"> -->
           <img class="txt-1" src="images-pc-carstyle/binguo/slideImg-txt-1.png">
           <img class="txt-2" src="images-pc-carstyle/binguo/slideImg-txt-2.png">
           <div class="swiper-container slideImg-main">
@@ -719,14 +620,11 @@
         <div class="swiper-slide slidePeizhi">
           <div class="slidePeizhi-head">
             <img class="title" src="images-pc-carstyle/binguo/pc-peizhi-title.png">
-            <!-- <a target="_blank" href="images-pc-carstyle/nano/ev50pz.pdf"><img class="down" src="images-pc-carstyle/nano/pc-down.png"></a> -->
           </div>
           <div class="slidePeizhi-wrap">
             <div class="head">
               <img class="head-img" src="images-pc-carstyle/binguo/202309/peizhi/peizhi-head.png">
-
             </div>
-
             <div class="img-wrap" id="scroll1">
               <div>
                 <img class="img on" on-src="images-pc-carstyle/binguo/202309/peizhi/peizhi-1-on.png"
@@ -771,16 +669,11 @@
             <p class="law">Chính sách và bảo mật</p>
             <p><a href="https://tbht.vn/" target="_blank">Tìm hiểu thêm: Công ty Cổ phần Thái Bình Hưng Thịnh</a></p><br />
             <p><a href="mailto:admin@tbht.vn" target="_blank">Email：admin@tbht.vn</a></p>
-            <!-- <p><a href="http://beian.miit.gov.cn/" target="_blank">桂ICP备05006817号-10</a></p> -->
             <p><a href="tel:+84 (0) 888 809 889" target="_blank">Hotline：+84 (0) 888 809 889</a></p>
           </footer>
         </div>
-
-
       </div>
-
     </div>
-
     <ul class="nav">
       <li class="nav-01 active" data-idx="0"></li>
       <li class="nav-02" data-idx="1"></li>
@@ -817,7 +710,6 @@
     </div>
     <img class="close" src="images-pc-carstyle/pc-close2.png">
   </div>
-
   <div class="video-wrap">
     <div class="video-wrap-box">
       <video src="#" id="video" playsinline="" -webkit-playsinline="" controls=""></video>
@@ -848,10 +740,6 @@
       })
     })
 
-
-
-
-
     function popAlert(msg) {
       $(".alert_pop p").html(msg);
       $(".alert_pop").fadeIn().delay(800).fadeOut();
@@ -873,8 +761,6 @@
       var last_city = "";
       var myProv = "";
       var myCity = "";
-
-
       $("#ddlCarProv").change(function () {
         myCity = false;
         getCity();
@@ -882,16 +768,7 @@
       $("#ddlCarCity").change(function () {
         getDealers();
       });
-
-
-
-
-
-
-
       guess_loaction();
-
-
       function guess_loaction() {
         if (myProv == "" || myCity == "") {
           $.ajax({
@@ -972,7 +849,6 @@
           type: "GET",
           url: api_server + "/api.php?s=/sgmw/index/dealerinfo_ev&r=" + parseInt(Math.random() * 10000),
           data: {
-            //cartype: encodeURI('五菱缤果'),
             cartype: '五菱缤果',
             city: $("#ddlCarCity option:selected").text(),
           },
@@ -985,8 +861,6 @@
           }
         })
       }
-
-
       function getEmpty() {
         var empty = [];
         var username = $("#input_name").val();
@@ -1045,10 +919,7 @@
         $("select").each(function () {
           if ($(this).val() == "请选择") {
             $(this).parents(".grid").addClass("alert");
-
             var empty = getEmpty();
-            //_jcq.push(["_tracksubmit", "LCNanoEV_", empty])
-
             return;
           } else {
             $(this).parents(".grid").removeClass("alert");
@@ -1057,12 +928,10 @@
 
         if ($(".grid.alert").length > 0) {
           var empty = getEmpty();
-          //_jcq.push(["_tracksubmit", "LCNanoEV_", empty])
 
           popAlert("请完善您的资料");
         } else if (!$(".hint .txt").hasClass("active")) {
           var empty = getEmpty();
-          //_jcq.push(["_tracksubmit", "LCNanoEV_", empty])
 
           popAlert("请阅读并同意条款");
         } else {
@@ -1138,7 +1007,4 @@
     })
   </script>
 </body>
-
-
-<!-- Mirrored from www.wuling.com/binguo.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Apr 2024 09:13:31 GMT -->
 </html>
