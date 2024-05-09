@@ -1494,7 +1494,7 @@ select::-ms-expand {
   box-sizing: border-box;
   border-radius: 50px;
   border: 1px solid #333333;
-  font-family: "fzzzh";
+  font-family: "Jura", sans-serif;
   font-size: 1.5625vw;
   color: #333333;
   text-align: center;
@@ -1535,7 +1535,7 @@ select::-ms-expand {
 }
 
 .reserve_form .btm .hint .txt span {
-  font-family: "fzzzh";
+  font-family: "Jura", sans-serif;
   cursor: pointer;
 }
 

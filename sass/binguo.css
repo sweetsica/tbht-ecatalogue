@@ -257,19 +257,19 @@ header.hide {
   cursor: pointer;
 }
 .reserve_form .btm .hint .txt {
-  font-family: "HYYakuHei-45W";
-  background-size: 5%;
+  font-family: "Jura", sans-serif;;
+  background-size: 3%;
   line-height: 29px;
   font-size: 1.02vw;
   padding-left: 31px;
 }
 .reserve_form .btm .hint .txt {
   background: url(../images-pc-carstyle/binguo/dot2.png) left center no-repeat;
-  background-size: 5%;
+  background-size: 3%;
 }
 .reserve_form .btm .hint .txt.active {
   background: url(../images-pc-carstyle/binguo/dot3.png) left center no-repeat;
-  background-size: 5%;
+  background-size: 3%;
 }
 .reserve_form .alert_info {
   bottom: -30px;
@@ -1264,12 +1264,12 @@ header.hide {
 
 .slideP4-5 .block-title-top,
 .slideP4-5 .block-title-bottom {
-  background-image: url(../images-pc-carstyle/binguo/202309/selling-title-5.png);
+  background-image: url(../images-pc-carstyle/binguo/202309/xexdd600l.png);
 }
 
 .slideP4-6 .block-title-top,
 .slideP4-6 .block-title-bottom {
-  background-image: url(../images-pc-carstyle/binguo/202309/selling-title-6.png);
+  background-image: url(../images-pc-carstyle/binguo/202309/phutung.png);
 }
 #wapper .slideImg {
   background: url(../images-pc-carstyle/binguo/slideImg-bg.jpg) no-repeat;
@@ -2083,6 +2083,7 @@ header.hide {
 }
 #wapper .pc-swiper-mainBody .slidePeizhi .slidePeizhi-head .title {
   width: 20.8333333333vw;
+  margin-top: 34px;
 }
 #wapper .pc-swiper-mainBody .slidePeizhi .slidePeizhi-wrap {
   width: 68.81667vw;
