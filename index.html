@@ -505,11 +505,11 @@
                 alt=""
                 class="v-b-img"
               />
-              <img
+              <!-- <img
                 src="images-pc-carstyle/binguo/vintage-b-img-6.jpg"
                 alt=""
                 class="v-b-img"
-              />
+              /> -->
             </div>
             <div class="block-title on">
               <div class="block-title-top"></div>
@@ -521,7 +521,7 @@
                   <div class="nums">
                     <div class="on">
                       <span>0</span><span>1</span><span>/</span><span>0</span
-                      ><span>6</span>
+                      ><span>5</span>
                     </div>
                     <div class="num-next"></div>
                   </div>
@@ -598,7 +598,8 @@
                           type="text"
                           name="name"
                           id="input_name"
-                          placeholder="Họ và tên"
+                          placeholder="Họ và tên *"
+                          required
                         />
                       </div>
                     </div>
@@ -610,7 +611,8 @@
                           name="phone"
                           id="input_phone"
                           maxlength="11"
-                          placeholder="Số điện thoại"
+                          placeholder="Số điện thoại *"
+                          required
                         />
                       </div>
                     </div>
@@ -621,7 +623,19 @@
                           type="text"
                           name="address"
                           id="input_address"
-                          placeholder="Địa chỉ"
+                          placeholder="Địa chỉ *"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="grid">
+                      <div class="drop_select">
+                        <input
+                          type="email"
+                          name="email"
+                          id="input_email"
+                          placeholder="Email *"
+                          required
                         />
                       </div>
                     </div>
@@ -632,21 +646,10 @@
                           src="images-pc-carstyle/binguo/booking-s-down.png"
                           class="arrow"
                         />
-                        <select id="city">
-                          <option value="" selected>Chọn tỉnh thành</option>
-                        </select>
-                      </div>
-                    </div>
-
-                    <div class="grid">
-                      <div class="drop_select">
-                        <img
-                          src="images-pc-carstyle/binguo/booking-s-down.png"
-                          class="arrow"
-                        />
-
-                        <select id="district">
-                          <option value="" selected>Chọn quận huyện</option>
+                        <select id="city" name="city" required>
+                          <option value="" selected disabled>
+                            Chọn tỉnh thành *
+                          </option>
                         </select>
                       </div>
                     </div>
@@ -657,9 +660,14 @@
                           src="images-pc-carstyle/binguo/booking-s-down.png"
                           class="arrow"
                         />
-
-                        <select id="ward">
-                          <option value="" selected>Chọn phường xã</option>
+                        <select name="type" required>
+                          <option value="" selected disabled>
+                            Chọn dòng xe quan tâm *
+                          </option>
+                          <option value="Xe Golf">Xe Golf</option>
+                          <option value="Xe thăm quan">Xe thăm quan</option>
+                          <option value="Xe đẩy điện">Xe đẩy điện</option>
+                          <option value="Xe foodtruck">Xe Foodtruck</option>
                         </select>
                       </div>
                     </div>
@@ -674,7 +682,7 @@
                         </p>
                       </div>
                       <button class="btn submit_btn" type="submit">
-                        Liên hệ
+                        Nhận tư vấn
                       </button>
                     </div>
                   </div>
@@ -1378,33 +1386,6 @@
         for (const x of data) {
           citis.options[citis.options.length] = new Option(x.Name, x.Id);
         }
-        citis.onchange = function () {
-          district.length = 1;
-          ward.length = 1;
-          if (this.value != "") {
-            const result = data.filter((n) => n.Id === this.value);
-
-            for (const k of result[0].Districts) {
-              district.options[district.options.length] = new Option(
-                k.Name,
-                k.Id
-              );
-            }
-          }
-        };
-        district.onchange = function () {
-          ward.length = 1;
-          const dataCity = data.filter((n) => n.Id === citis.value);
-          if (this.value != "") {
-            const dataWards = dataCity[0].Districts.filter(
-              (n) => n.Id === this.value
-            )[0].Wards;
-
-            for (const w of dataWards) {
-              wards.options[wards.options.length] = new Option(w.Name, w.Id);
-            }
-          }
-        };
       }
     </script>
   </body>

@@ -1298,7 +1298,7 @@ gsap.to($(".vintage .v-b-img").eq(0), {
   scale: 1,
   duration: 2,
 });
-var vintageCount = 6;
+var vintageCount = 5;
 var vintageAnimatingIdx = 0; //当前动画大图
 var vintageThumbsPrevIdx = 0; //fadeout的元素idx
 var vintageAnimateFinish = true; //大图动画完成

@@ -77,7 +77,7 @@ var gbmid1 = new Swiper('.cpics', {
 
 $(".pics-bom span").click(function () {
     var index = $(this).data("index");
-    gbmid1.slideTo(index+3)
+    gbmid1.slideTo(index + 3)
 })
 
 $('.cpics .swiper-slide img').click(function () {
@@ -85,44 +85,44 @@ $('.cpics .swiper-slide img').click(function () {
     // console.log(index)
     $('.big-pic').show().css('backgroundImage', 'url(images-pc-carstyle/changpeng/pic-' + index + '-big.jpg)');
     $('#wapper .nav').hide();
-    stm_clicki('send', 'event', '五菱宏光MINIEV敞篷版车型页-美图展示', '小图-点击','五菱宏光MINIEV敞篷版车型页')
+    stm_clicki('send', 'event', '五菱宏光MINIEV敞篷版车型页-美图展示', '小图-点击', '五菱宏光MINIEV敞篷版车型页')
 })
 
 $('.big-pic .back').click(function () {
     $('#wapper .nav').show();
     $('.big-pic').hide().css('backgroundImage', 'none');
-    stm_clicki('send', 'event', '五菱宏光MINIEV敞篷版车型页-美图展示', '返回-点击','五菱宏光MINIEV敞篷版车型页')
+    stm_clicki('send', 'event', '五菱宏光MINIEV敞篷版车型页-美图展示', '返回-点击', '五菱宏光MINIEV敞篷版车型页')
 })
 $('.lastPage .back').click(function () {
     $('.lastPage').hide();
-    stm_clicki('send', 'event', '五菱宏光MINIEV敞篷版车型页-早鸟优惠', '返回-点击','五菱宏光MINIEV敞篷版车型页')
+    stm_clicki('send', 'event', '五菱宏光MINIEV敞篷版车型页-早鸟优惠', '返回-点击', '五菱宏光MINIEV敞篷版车型页')
 })
 
 $('.slideTap').click(function () {
     $('.lastPage').show()
-    stm_clicki('send', 'event', '五菱宏光MINIEV敞篷版车型页', '早鸟优惠-点击','五菱宏光MINIEV敞篷版车型页')
+    stm_clicki('send', 'event', '五菱宏光MINIEV敞篷版车型页', '早鸟优惠-点击', '五菱宏光MINIEV敞篷版车型页')
 })
 
 $('.btn-play-def').click(function () {
     $('.video-wrap').show();
-    $('#video').attr('src','images-pc-carstyle/changpeng/video.mp4')
-    setTimeout(function(){
+    $('#video').attr('src', 'images-pc-carstyle/changpeng/video.mp4')
+    setTimeout(function () {
         $('#video')[0].play();
-    },200)
-    stm_clicki('send', 'event', '五菱宏光MINIEV敞篷版车型页-精彩视频', '视频播放-点击','五菱宏光MINIEV敞篷版车型页')
+    }, 200)
+    stm_clicki('send', 'event', '五菱宏光MINIEV敞篷版车型页-精彩视频', '视频播放-点击', '五菱宏光MINIEV敞篷版车型页')
 })
 
 $('.btn-play-new').click(function () {
     $('.video-wrap').show();
-    $('#video').attr('src','images-pc-carstyle/changpeng/new.mp4')
-    setTimeout(function(){
+    $('#video').attr('src', 'images-pc-carstyle/changpeng/new.mp4')
+    setTimeout(function () {
         $('#video')[0].play();
-    },200)
-    stm_clicki('send', 'event', '五菱宏光MINIEV敞篷版车型页-家族上新', '家族上新-点击','五菱宏光MINIEV敞篷版车型页')
+    }, 200)
+    stm_clicki('send', 'event', '五菱宏光MINIEV敞篷版车型页-家族上新', '家族上新-点击', '五菱宏光MINIEV敞篷版车型页')
 })
 
 $('.video-wrap .close').click(function () {
-    $('.video-wrap').hide().attr('src','');
+    $('.video-wrap').hide().attr('src', '');
     $('#video')[0].pause();
 })
 
@@ -141,7 +141,7 @@ $('.nav li').on('click', function () {
         stm_clicki('send', 'event', '五菱宏光MINIEV敞篷版车型页-右侧导航栏', '精彩视频-点击', '五菱宏光MINIEV敞篷版车型页')
     }
     if (idx == 2) {
-        stm_clicki('send', 'event', '五菱宏光MINIEV敞篷版车型页-右侧导航栏', '美图展示-点击','五菱宏光MINIEV敞篷版车型页')        
+        stm_clicki('send', 'event', '五菱宏光MINIEV敞篷版车型页-右侧导航栏', '美图展示-点击', '五菱宏光MINIEV敞篷版车型页')
     }
 })
 

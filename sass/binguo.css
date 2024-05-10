@@ -196,19 +196,19 @@ header.hide {
 }
 .reserve_form .drop_select input {
   width: 100%;
-  font-family: "FZMoDTJW_Da";
+  font-family: "Jura", sans-serif;
   font-size: 1.0416666667vw;
   color: #000;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   background: transparent;
 }
 .reserve_form .drop_select input::placeholder {
-  font-family: "FZMoDTJW_Da";
+  font-family: "Jura", sans-serif;
   font-size: 1.0416666667vw;
   color: #4c3715;
 }
 .reserve_form .drop_select select {
-  font-family: "FZMoDTJW_Da";
+  font-family: "Jura", sans-serif;
   font-size: 1.0416666667vw;
   color: #4c3715;
 }
