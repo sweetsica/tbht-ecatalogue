@@ -18,30 +18,6 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script>
-    // function browserRedirect() {
-    //   var sUserAgent = navigator.userAgent.toLowerCase();
-    //   var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
-    //   var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
-    //   var bIsMidp = sUserAgent.match(/midp/i) == "midp";
-    //   var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
-    //   var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
-    //   var bIsAndroid = sUserAgent.match(/android/i) == "android";
-    //   var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
-    //   var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
-
-    //   if ((bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM)) {
-    //     var arr = location.href.split("?");
-    //     if (arr.length > 1) {
-    //       location.replace("wap/binguod41d.html?" + arr[1]);
-    //     } else {
-    //       location.replace("wap/binguo.html");
-    //     }
-    //   } else {
-    //   }
-    // }
-    // browserRedirect();
-  </script>
   <style>
     .link {
       
@@ -89,30 +65,6 @@
 
 
   </style>
-  <script>
-    (function () {
-      function getQuery(name) {
-        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-        var r = window.location.search.substr(1).match(reg);
-        if (r != null) return decodeURIComponent(r[2]); return "";
-      }
-      window.common = {
-        getQuery: getQuery
-      }
-    }())
-  </script>
-  <script>
-      (function (a, e, f, g, b, c, d) {
-        a.ClickiTrackerName = b;
-        a[b] = a[b] || function () { (a[b].queue = a[b].queue || []).push(arguments) };
-        a[b].start = +new Date; c = e.createElement(f); d = e.getElementsByTagName(f)[0];
-        c.async = 1; c.src = g; d.parentNode.insertBefore(c, d)
-      })(window, document, 'script', '../stm-cdn.cn.miaozhen.com/clicki.minec92.js?v=' + Math.round(new Date().getTime() / 1000 / 300), 'stm_clicki');
-    stm_clicki('create', 'dc-3797', 'auto');
-    stm_clicki('send', 'pageview');
-    stm_clicki('require', 'heatmap', '../stm-cdn.cn.miaozhen.com/plugins/heatmapec92.js?v=' + Math.round(new Date().getTime() / 1000 / 1800));
-    stm_clicki('heatmap:on', 5);
-  </script>
 </head>
 
 <body>
