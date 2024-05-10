@@ -220,6 +220,9 @@ header.hide {
   margin-top: 38vh;
   background: #442619;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .reserve_form .btm .btn:hover {
   background: #442619;
@@ -257,7 +260,7 @@ header.hide {
   cursor: pointer;
 }
 .reserve_form .btm .hint .txt {
-  font-family: "Jura", sans-serif;;
+  font-family: "Jura", sans-serif;
   background-size: 3%;
   line-height: 29px;
   font-size: 1.02vw;
