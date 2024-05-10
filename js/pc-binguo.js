@@ -31,7 +31,7 @@ let swiperMain = new Swiper(".pc-swiper-mainBody", {
   mousewheelControl: true,
   noSwiping: true,
   mousewheelReleaseOnEdges: true,
-  onSlideChangeStart: function () {},
+  onSlideChangeStart: function () { },
   onSlideChangeEnd: function (swiper) {
     let idx = swiper.activeIndex;
 
@@ -255,8 +255,8 @@ var meitu = new Swiper(".slideImg-main", {
     console.log(swiper.activeIndex, swiper.realIndex);
     $(
       ".slideImg .swiper-pagination .swiper-pagination-bullet:eq(" +
-        swiper.realIndex +
-        ")"
+      swiper.realIndex +
+      ")"
     )
       .addClass("swiper-pagination-bullet-active")
       .siblings()
@@ -829,7 +829,7 @@ $(".popUp-wrap .close").on("click", function () {
 
 $(".llb").click(function () {
   window.location.href =
-    "https://cdn-m.00bang.cn/h5/goods/detail?commodityId=29570";
+    "https://tbht.vn/lien-he";
   stm_clicki(
     "send",
     "event",
@@ -1111,12 +1111,12 @@ $(".color-select .color-b").on("click", function () {
   $(".car-main .car-" + $(this).data().id + " .car-img").attr(
     "src",
     "images-pc-carstyle/binguo/color-car-" +
-      $(this).data().id +
-      "-" +
-      idx +
-      "-" +
-      wheelIdx +
-      ".png"
+    $(this).data().id +
+    "-" +
+    idx +
+    "-" +
+    wheelIdx +
+    ".png"
   );
   var did = $(this).data().id;
   var didx = $(this).data().idx;
@@ -1202,12 +1202,12 @@ $(".color-select .color-wheel").on("click", function () {
   $(".car-main .car-" + $(this).data().id + " .car-img").attr(
     "src",
     "images-pc-carstyle/binguo/color-car-" +
-      $(this).data().id +
-      "-" +
-      colorIdx +
-      "-" +
-      idx +
-      ".png"
+    $(this).data().id +
+    "-" +
+    colorIdx +
+    "-" +
+    idx +
+    ".png"
   );
   var did = $(this).data().id;
   var didx = $(this).data().idx;
@@ -1330,7 +1330,7 @@ var vintageSwipe = new Swiper(".vintage-thumbs", {
   onSlideChangeStart: function (swiper) {
     if (swiperMain.activeIndex != 4) return;
   },
-  onSlideChangeEnd: function (swiper) {},
+  onSlideChangeEnd: function (swiper) { },
 });
 
 $(".vintage-thumbs .img").on("click", function () {
@@ -1426,10 +1426,10 @@ function vintageBigImgAnimate(idx) {
 
   $(".thumbs .nums div:not('.on')").html(
     "<span>0</span><span>" +
-      (idx + 1) +
-      "</span><span>/</span><span>0</span><span>" +
-      vintageCount +
-      "</span>"
+    (idx + 1) +
+    "</span><span>/</span><span>0</span><span>" +
+    vintageCount +
+    "</span>"
   );
   setTimeout(function () {
     $(".thumbs .nums div:not('.on')").addClass("on");
