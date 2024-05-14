@@ -1373,9 +1373,7 @@
     <!-- Chọn Tỉnh, Quận, huyện -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
     <script>
-      var citis = document.getElementById("city");
-      var districts = document.getElementById("district");
-      var wards = document.getElementById("ward");
+      var selectCity = document.getElementById("city");
       var Parameter = {
         url: "https://raw.githubusercontent.com/kenzouno1/DiaGioiHanhChinhVN/master/data.json",
         method: "GET",
@@ -1388,7 +1386,10 @@
 
       function renderCity(data) {
         for (const x of data) {
-          citis.options[citis.options.length] = new Option(x.Name, x.Id);
+          selectCity.options[selectCity.options.length] = new Option(
+            x.Name,
+            x.Id
+          );
         }
       }
     </script>
